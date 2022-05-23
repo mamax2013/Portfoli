@@ -19,8 +19,6 @@
     padding: 34px 0 0 50px;
     background: var(--Dim);
   }
-  &__img {
-  }
   &__title {
     font-size: 36px;
     line-height: 47px;
@@ -35,7 +33,6 @@
      margin-top: 40px;
     }
     &__wrap {
-      // display: grid;
       grid-template-columns: 1fr;
       margin: 10px 0;
       width: 100%;
