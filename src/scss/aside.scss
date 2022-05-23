@@ -42,3 +42,9 @@
     color: var(--White);
   }
 }
+
+@media (max-width: 1110px) {
+  .aside {
+    margin-bottom: 40px;
+  }
+}
