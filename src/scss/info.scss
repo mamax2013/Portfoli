@@ -1,0 +1,30 @@
+.info {
+  &__tekst {
+    font-size: 48px;
+    line-height: 62px;
+    color: var(--White);
+    text-align: center;
+  }
+  &__wrap {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 120px;
+    margin: 73px 0 100px 0;
+    background-color: var(--Dim);
+  }
+  &__sifra {
+    padding-top: 59px;
+    font-size: 72px;
+    line-height: 94px;
+    color: var(--Grey);
+  }
+  &__test {
+    padding-bottom: 57px;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--Green);
+    text-align: center;
+  }
+}

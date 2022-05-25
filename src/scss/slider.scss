@@ -29,8 +29,9 @@
 
 @media (max-width: 1111px) {
   .slider {
+    margin-bottom: 40px;
     &__wrapper {
-     margin-top: 40px;
+      margin-top: 40px;
     }
     &__wrap {
       grid-template-columns: 1fr;
