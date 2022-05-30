@@ -48,3 +48,18 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 1080px) {
+  .aside {
+    &__wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media (max-width: 510px) {
+  .aside {
+    &__wrap {
+      grid-template-columns: 1fr;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.form {
+  max-width: 753px;
+  max-height: 330px;
+  margin: 0 auto;
+  &__title {
+    font-size: 48px;
+    line-height: 62px;
+    color: var(--White);
+    text-align: center;
+    margin-bottom: 82px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 57px;
+  }
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 37px;
+  }
+  &__username {
+    width: 323px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--Grey);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+  }
+  &__lastname {
+    width: 323px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--Grey);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+  }
+  &__useremail {
+    width: 323px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--Grey);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+  }
+  &__userphone {
+    width: 323px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--Grey);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+  }
+ 
+  &__usermessage {
+    width: 100%;
+    padding-bottom: 81px;
+    margin: 47px 0 29px 0;
+    background: none;
+    border: 1px solid var(--Grey);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+  }
+  &__button {
+    text-align: center;
+  }
+  &__btn {
+    cursor: pointer;
+    margin-bottom: 160px;
+    padding: 12px 33px;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--White);
+    background: var(--Green);
+    border: none;
+  }
+  &__header {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Grey);
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .form {
+    &__btn {
+      margin-bottom: 60px;
+    }
+  }
+}
+@media (max-width: 748px) {
+  .form {
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__wrapper {
+      gap: 37px;
+    }
+    &__wrap {
+      width: 100%;
+    }
+    &__username {
+      width: 100%;
+      margin-bottom: 37px;
+    }
+    &__lastname {
+      width: 100%;
+    }
+    &__useremail {
+      width: 100%;
+      margin-bottom: 37px;
+    }
+    &__userphone {
+      width: 100%;
+    }
+  }
+}

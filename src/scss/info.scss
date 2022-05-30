@@ -28,3 +28,30 @@
     text-align: center;
   }
 }
+@media (max-width: 1000px) {
+  .info {
+    &__wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px;
+    }
+    &__sifra {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 988px) {
+  .info {
+    &__wrap {
+      margin-bottom: 40px;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .info {
+    &__wrap {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+  }
+}
